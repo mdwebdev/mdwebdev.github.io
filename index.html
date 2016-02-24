@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Заголовок страницы</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/js.js"></script>
+    <!-- Поддержка HTML5 в IE -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/ie.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    
+    <script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
+<!--
+    <script type="text/javascript">
+        $(function(){
+            $.pixlayout({clip: true, src: "index.jpg", show:true, center:true, top:0, left:0, pervious: false});
+    }); 
+    </script>
+-->
+    <script>
+      $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        pager: false,
+        auto: true,
+        pause: 4000,
+        speed: 1600
+        });
+      });
+    </script>
+  </head>
+  <body>
+  
+  <div class="wrapper">
+   
+    <div class="header__top">
+      <nav class="header__menu">
+        <ul>
+          <li><a href="#">О компании </a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка </a></li>
+          <li><a href="#">Наши магазины</a></li>
+          <li><a href="#">Оптовикам</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__search">
+        <form class="searchbox" action="POST">
+         <input type="search" placeholder="поиск по каталогу" />
+         <button type="submit" value="search">&nbsp;</button>
+        </form>
+      </div>
+    </div>    
+    
+    <div class="header__bottom">
+      <a href="/" class="header__logo"></a>
+      <div class="header__contacts">
+        <div class="header__phone-email-icq">
+          <div class="header__phone">
+            <p>(495) <span>234-22-33</span>, (495) <span>232-22-35</span></p>
+          </div>
+          <div class="header__email">
+            <a href="#">Написать сообщение</a>
+          </div>
+          <div class="header__icq">
+            288-22-08
+          </div>          
+        </div>
+        <div class="header__client-info">
+          <div class="header__cart">
+            <p>В вашей корзине пусто</p>
+          </div>
+          <div class="header__cabinet">
+            <a href="#">Личный кабинет</a>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="left-side">
+
+          <ul class="content__menu">
+            <li><a href="#" class="content__menu-title">Автомодели</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Самолеты</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Вертолеты</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Аккумуляторы, кабели</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Аппаратура</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Инструмент, материалы</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Винты, крепеж, клей</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Двигатели ДВС</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Электродвигатели</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="content__menu-title">Катера, яхты</a>
+              <ul class="content__submenu">
+                <li class="content__submenu-item">
+                  <a href="#" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+                <li class="content__submenu-item">
+                  <a href="" class="content__submenu-link">Пункт меню</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="news">
+            <ul>
+              <li>                 
+                <p class="news__date">12.10.2011</p>
+                <p class="news__title"><a href="#">Много скидок!</a></p>
+                <p class="news__text">Скоро ноябрь, а это значит, что скоро вас ждет большое количество скидок в связи с нашим юбелеем.</p>
+              </li>
+              <li>                 
+                <p class="news__date">12.10.2011</p>
+                <p class="news__title"><a href="#">Обменяй старое на новое!</a></p>
+                <p class="news__text">Скоро ноябрь, а это значит, что скоро вас ждет большое количество скидок в связи с нашим юбелеем.</p>
+              </li>
+              <li>                 
+                <p class="news__date">12.10.2011</p>
+                <p class="news__title"><a href="#">Обновление в каталогах!</a></p>
+                <p class="news__text">Скоро ноябрь, а это значит, что скоро вас ждет большое количество скидок в связи с нашим юбелеем.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="write-to-us">
+            <a href="#">Написать нам</a>
+          </div>
+
+          <div class="banners">
+            <a href="#"><img src="img/banner.png" alt="Реклама"></a>
+            <a href="#"><img src="img/banner.png" alt="Реклама"></a>
+          </div>
+
+        </div> <!-- END LEFT-SIDE-->
+          
+          
+        <div class="right-side">
+
+          <div class="content__slider">
+            <ul class="bxslider">
+              <li>                 
+                <div class="slider__description">                 
+                  <h3>Электрический мини-вертолет Beacon</h3>
+                  <div class="slider__product-description"> 
+                    <table>
+                      <tr>
+                        <td>Тип:</td>
+                        <td>мини вертолет</td>
+                      </tr>
+                      <tr>
+                        <td>Шасси: </td>
+                        <td>пластик </td>
+                      </tr>
+                      <tr>
+                        <td>Электродвигатели: </td>
+                        <td>180 размера (2 шт.)</td>
+                      </tr>
+                      <tr>
+                        <td>Время полета: </td>
+                        <td>10 - 12 минут </td>
+                      </tr>
+                    </table>                    
+                  </div>
+                  <div class="slider__price">
+                    <p>Цена:</p>
+                    <p>6 960</p>
+                    <p>рублей</p>
+                  </div>
+                  <a href="#" class="slider__buy">В корзину</a>
+                </div>
+                <img src="img/slider-img.png" alt="Слайдер"/>
+              </li>
+              <li>                 
+                <div class="slider__description">                 
+                  <h3>Электрический мини-вертолет Beacon</h3>
+                  <div class="slider__product-description"> 
+                    <table>
+                      <tr>
+                        <td>Тип:</td>
+                        <td>мини вертолет</td>
+                      </tr>
+                      <tr>
+                        <td>Шасси: </td>
+                        <td>пластик </td>
+                      </tr>
+                      <tr>
+                        <td>Электродвигатели: </td>
+                        <td>180 размера (2 шт.)</td>
+                      </tr>
+                      <tr>
+                        <td>Время полета: </td>
+                        <td>10 - 12 минут </td>
+                      </tr>
+                    </table>                    
+                  </div>
+                  <div class="slider__price">
+                    <p>Цена:</p>
+                    <p>6 960</p>
+                    <p>рублей</p>
+                  </div>
+                  <a href="#" class="slider__buy">В корзину</a>
+                </div>
+                <img src="img/slider-img.png" alt="Слайдер"/>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content__sale">             
+
+            <a href="#" class="sale">Распродажа</a>
+
+            <ul class="sale__menu">
+              <li>
+                <div class="sale__item">
+                  <img src="img/catalog-img2.jpg" alt="Распродажа">
+                  <p class="sale__price">18 480 <span>р.</span></p>
+                  <a href="#" class="sale__text">CYCLONE D4 WORLD CHAMPIONSHIP EDITION KIT</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="sale__item">
+                  <img src="img/catalog-img3.jpg" alt="Распродажа">
+                  <p class="sale__price">5 712 <span>р.</span></p>
+                  <a href="#" class="sale__text">Кордовая модель-копия PT-19 Profile Control Line 36 ARF</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="sale__item">
+                  <img src="img/catalog-img4.jpg" alt="Распродажа">
+                  <p class="sale__price">18 240 <span>р.</span></p>
+                  <a href="#" class="sale__text">Электрический мини-вертолет HM 60#B</a>
+                </div>                  
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="content__bestsellers">
+
+            <a href="#" class="bestseller">Хиты продаж</a>
+
+            <ul class="bestsellers__menu">
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img2.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">18 480 <span>р.</span></p>
+                  <a href="#" class="bestsellers__text">CYCLONE D4 WORLD CHAMPIONSHIP EDITION KIT</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img3.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">5 712 р.</p>
+                  <a href="#" class="bestsellers__text">Кордовая модель-копия PT-19 Profile Control Line 36 ARF</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img4.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">18 240 <span>р.</span></p>
+                  <a href="#" class="bestsellers__text">Электрический мини-вертолет HM 60#B</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img2.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">18 480 <span>р.</span></p>
+                  <a href="#" class="bestsellers__text">CYCLONE D4 WORLD CHAMPIONSHIP EDITION KIT</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img3.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">5 712 <span>р.</span></p>
+                  <a href="#" class="bestsellers__text">Кордовая модель-копия PT-19 Profile Control Line 36 ARF</a>
+                </div>                  
+              </li>
+              <li>
+                <div class="bestsellers__item">
+                  <img src="img/catalog-img4.jpg" alt="Распродажа">
+                  <p class="bestsellers__price">18 240 <span>р.</span></p>
+                  <a href="#" class="bestsellers__text">Электрический мини-вертолет HM 60#B</a>
+                </div>                  
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="content__reviews">
+
+            <h3>Последние обзоры</h3>
+
+            <div class="reviews__item">
+              <img src="img/catalog-img5.jpg" alt="Вертолет">
+              <a href="#">Наша компания организовала тест на прочность и выносливость эктрическому мини-вертолету HM60#B</a>
+              <p>Было приглашено около 30 человек, но зрителей собралось в разы больше. Место проведения теста - площадь. Зрители смотрели как на шоу, маневры и падения вертолета сопровождались возгласами, вот вот и ходила бы волна по зрителям.</p>
+            </div>
+            <div class="reviews__item">
+              <img src="img/catalog-img5.jpg" alt="Вертолет">
+              <a href="#">Наша компания организовала тест на прочность и выносливость эктрическому мини-вертолету HM60#B</a>
+              <p>Было приглашено около 30 человек, но зрителей собралось в разы больше. Место проведения теста - площадь. Зрители смотрели как на шоу, маневры и падения вертолета сопровождались возгласами, вот вот и ходила бы волна по зрителям.</p>
+            </div>
+
+          </div>
+
+          <div class="content__about-company">
+            <h2>О компании</h2>
+            <p>История компании elwau.ru – один из примеров сочетания творческого подхода с чрезвычайной практичностью. Знаменитая идея братьев Венинг – оснастить различные виды транспорта мобильными холодильниками – в 70-х годах прошлого века перешагнула стандарты инженерного мышления. Что же до применения этой и множества других разработок – автохолодильники автокондиционеры, автопылесосы, автокофеварки elwau.ru – то здесь братья-изобретатели блестяще продемонстрировали свои организаторские таланты. <a href="#">читать дальше</a></p>
+          </div>
+
+        </div> <!-- END RIGHT-SIDE-->
+          
+      </div>
+    
+    <footer>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Наши магазины</a></li>
+          <li><a href="#">Оптовикам</a></li>
+          <li><a href="#">Контакты</a></li>                                               
+        </ul>
+      </nav>
+      <div class="footer-contacts">
+        <div class="footer__address">
+          <p>&copy; 2007-2011 Интернет-супермаркет «<a href="#">Elwau.ru</a>»</p>
+          <p>Адрес: 105118, г.Москва, ул. Кирпичная, д. 22</p>
+          <p>Тел.: +7 (495) 540-55-11, 8 (800) 555-55-90</p>
+          <p>Email: info@elwau.ru</p>
+        </div>
+        <div class="footer_desinger">
+          <p>Дизайн сайта - <a href="#">Плюснин Никита</a></p>            
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+  
+  </body>
+</html>
