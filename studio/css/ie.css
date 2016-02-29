@@ -1,0 +1,9 @@
+
+.searchbox button[type="submit"] {
+  background-color: #fff;
+  margin-left: -4px;
+  height: 15px;
+}
+.searchbox {
+  background-color: transparent;
+}
