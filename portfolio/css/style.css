@@ -61,15 +61,13 @@ a {text-decoration: none;}
 }
 .header-welcome {
   font-size: 40px;
-  color: #fff;
-  
+  color: #fff;  
 }
 #header h1 {
   margin-top: 50px;
   font-size: 60px;
   color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  
+  text-transform: uppercase;  
 }
 
 
@@ -99,9 +97,6 @@ a {text-decoration: none;}
   font-size: 22px;
   color: rgb(34, 34, 34);
   font-weight: bold;
-}
-.certificate-content {
-
 }
 .certificate-title {
   margin-bottom: 20px;
@@ -136,17 +131,14 @@ a {text-decoration: none;}
 .certificate-name {
   margin-left: 70px;
   font-size: 16px;
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 .certificate-educational-center {
   margin-left: 100px;
   font-size: 12px;
 }
-
 .certificate-educational-center span {
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 
@@ -157,17 +149,17 @@ a {text-decoration: none;}
 #portfolio-main {
   background: #f7f7f7;
 }
-
 .portfolio-content {
   font-size: 0;
 }
 .portfolio-item {
   display: inline-block;
   width: 30%;
-  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
 }
-.portfolio-item:first-child {
-  margin-left: 0;
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 .portfolio-link-img {
   display: block;
@@ -178,8 +170,7 @@ a {text-decoration: none;}
   vertical-align: middle;
 }
 .portfolio-item img {
-  text-align: center;
-  
+  text-align: center;  
 }
 .portfolio-item-text {
   padding: 5px 0;
@@ -194,8 +185,7 @@ a {text-decoration: none;}
   transition: .5s;
 }
 .portfolio-link-text:hover {
-  color: #0b00ff;  
-  
+  color: #0b00ff;    
 }
 .portfolio-item-text p {
   font-size: 14px;
@@ -245,17 +235,10 @@ a {text-decoration: none;}
   background: url(../images/contacts-address.png) 0 7px no-repeat;
 }
 .contacts-phone {
-  background: url(../images/contacts-phone.png) 0 7px no-repeat;
-  
-}
-.contacts-phone a {
-  
+  background: url(../images/contacts-phone.png) 0 7px no-repeat;  
 }
 .contacts-email {
   background: url(../images/contacts-email.png) 0 7px no-repeat;
-  
-}
-.contacts-email a {
   
 }
 
